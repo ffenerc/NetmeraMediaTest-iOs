@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "Netmera/Netmera.h"
 
 @implementation AppDelegate
 
@@ -21,6 +22,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [NetmeraClient initWithApiKey:@"WVhCd1ZYSnNQV2gwZEhBbE0wRWxNa1lsTWtZNU56QXlNVGMyTG01bGRHMWxjbUV1WTI5dEpUTkJPREFsTWtadGIySnBiV1Z5WVNVeVJtZGhaR2RsZENVeVJtaHZiV1V1ZUcxc0ptNXRVMmwwWlZWeWJEMW9kSFJ3SlROQkpUSkdKVEpHT1Rjd01qRTNOaTV1WlhSdFpYSmhMbU52YlNVelFUZ3dKbTF2WkhWc1pVbGtQVFl6TURjbVlYQndTV1E5T1Rjd01qRTNOaVp1YlZSbGJYQnNZWFJsUFcxdlltbDBaVzF3YkdGMFpTWnZkMjVsY2tsa1BYTmxjbWhoZEMxellYSnBKbVJ2YldGcGJqMXVaWFJ0WlhKaExtTnZiU1p1YlZOcGRHVTlPVGN3TWpFM05pWnZkMjVsY2xKdmJHVlVlWEJsUFRFbWRtbGxkMlZ5VW05c1pWUjVjR1U5TVNaMmFXVjNaWEpKWkQxelpYSm9ZWFF0YzJGeWFTWQ=="];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
