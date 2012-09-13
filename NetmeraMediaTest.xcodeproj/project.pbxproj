@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F720E2A71601C961001D8B8A /* MediaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F720E2A51601C961001D8B8A /* MediaDetailViewController.m */; };
 		F720E2A81601C961001D8B8A /* MediaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F720E2A61601C961001D8B8A /* MediaDetailViewController.xib */; };
+		F720E2AB1601F1B9001D8B8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F720E2AA1601F1B9001D8B8A /* README.md */; };
 		F74B064D1600D8060069B126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74B064C1600D8060069B126 /* UIKit.framework */; };
 		F74B064F1600D8060069B126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74B064E1600D8060069B126 /* Foundation.framework */; };
 		F74B06511600D8060069B126 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74B06501600D8060069B126 /* CoreGraphics.framework */; };
@@ -32,6 +33,7 @@
 		F720E2A41601C961001D8B8A /* MediaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDetailViewController.h; sourceTree = "<group>"; };
 		F720E2A51601C961001D8B8A /* MediaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaDetailViewController.m; sourceTree = "<group>"; };
 		F720E2A61601C961001D8B8A /* MediaDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaDetailViewController.xib; sourceTree = "<group>"; };
+		F720E2AA1601F1B9001D8B8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		F74B06481600D8060069B126 /* NetmeraMediaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmeraMediaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74B064C1600D8060069B126 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F74B064E1600D8060069B126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +83,7 @@
 		F74B063D1600D8060069B126 = {
 			isa = PBXGroup;
 			children = (
+				F720E2AA1601F1B9001D8B8A /* README.md */,
 				F74B06521600D8060069B126 /* NetmeraMediaTest */,
 				F74B064B1600D8060069B126 /* Frameworks */,
 				F74B06491600D8060069B126 /* Products */,
@@ -198,6 +201,7 @@
 				F74B06631600D8060069B126 /* ViewController.xib in Resources */,
 				F74B068C1600E81C0069B126 /* ListViewController.xib in Resources */,
 				F720E2A81601C961001D8B8A /* MediaDetailViewController.xib in Resources */,
+				F720E2AB1601F1B9001D8B8A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
